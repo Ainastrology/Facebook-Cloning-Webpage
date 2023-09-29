@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullpage {
+    background-color:  #f7f7f7;
+    height: 862px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo {
+    height: 92px;
+    margin: 6px 0px 12px 0px;
+    
+}
+.signupform {
+    height: 695px;
+    background-color: #ffffff;
+    width: 440px;
+    position: absolute;
+    margin-top: 95px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.1);
+     /* display: flex;      */
+    /* justify-content: center;  */
+}
+.signupform .signuptext h3 {
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #1c1e21 ;
+    margin-top: 13px;
+}
+.signupform .signuptext p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+}
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    }
+.signupform form {
+    padding: 18px;
+    display: flex;
+justify-content: left;
+
+}
+.signupform input {
+    margin-top: 10px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.signupform .firstname {
+    position: absolute;
+    width: 175px;
+} 
+.signupform .lastname {
+      margin-left: 197px;
+}
+.signupform form .email,
+.signupform form .password,
+.signupform form .password2 {
+    /* margin-top: 20px; */
+    width: 390px;
+}
+.signupform form .DOB,
+.signupform form .gicon .Gender {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 2px;
+    color: #606770;
+    line-height: 20px;
+}
+.gicon {
+    display: flex;
+    justify-content: left;
+
+}
+.dobsection {
+    display: flex;
+    justify-content: left;
+}
+.dobsection img {
+    height: 15px;
+    padding-top: 13px;
+    padding-left: 2px;
+}
+.gicon img {
+    height: 15px;
+    padding-top: 13px;
+    padding-left: 2px;
+    
+}
+
+.signupform form .birth_date {
+    margin-top: 5px;
+}
+.signupform form .month,
+.signupform form .day,
+.signupform form .year{
+    height: 32px;
+    width: 125px;
+    vertical-align: top;
+    padding-right: 24px
+    
+}
+.signupform form .genform .radio-container input[type="radio"] {
+    height: 15px;
+    position: relative;
+    width: 15%;
+    margin-bottom: 15px;
+}
+.signupform form .genform label {
+    margin: 25px
+}
+.genform {
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: medium;
+    width: 105px;
+}
+.radio-container {
+    border: 1px solid #ccc;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    margin: 5px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    height: 32px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+.radio-container input[value="female"]
+{
+    width: 25%;
+}
+.radio-container input[value="male"]
+{
+    width: 25%;
+}
+.radio-container input[value="other"]
+{
+    padding: 15px;
+}
+.agreement {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: inherit;
+    font-size: 12px;
+}
+.agreement a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signup{
+    margin-top: 12px;
+    margin-left: 105px;
+    height: 38px;
+    width: 190px;
+    justify-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid  #1ea31e;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#72d850, #69b14f, #54943d);
+}
+.signup:hover{
+    background: linear-gradient(#3d8526, #5b8a47);
+}
+.loginlink p {
+    /* color: #247ef5; */
+    font-family: inherit;
+    font-size: 17px;
+    /* line-height: 20px; */
+    text-align: center;
+    margin-top: 20px;
+}
+.loginlink a {
+    color: #247ef5;
+    cursor: pointer;
+    text-decoration: none;
+}

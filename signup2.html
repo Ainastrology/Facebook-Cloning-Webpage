@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="signup2.css">
+    <title>SignUp Page</title>
+</head>
+<body>
+   <div class="fullpage">
+        <img class="logo" src="fbimages/fbsignup logo.svg">
+        
+        <div class="signupform">
+            <div class="signuptext">
+                <h3>Create a new account</h3>
+                <p>It's quick and easy.</p><hr>
+            </div>
+            <form class="form">
+                <div>
+                    <input class="firstname" type="text" name="" placeholder="First name">
+                    <input class="lastname" type="text" name="" placeholder="Last name">
+                    <input class="email" type="text" name="" placeholder="Mobile number or email address">
+                    <input class="password" type="password" name="" placeholder="Password">
+                    <input class="password2" type="password" name="" placeholder="Confirm password">
+
+                    <div class="dobsection">
+                    <p class="DOB">Date of Birth</p><a href="#"><img src="fbimages/fb-dob-gen-logo.png " title="Click for more information" ></a>
+                    </div>    
+                    <div class="birth_date">
+                        <select class="month">
+                        <option>Month</option><option>Jan</option><option>Feb</option><option>Mar</option>
+                        <option>Apr</option><option>May</option><option>Jun</option><option>Jul</option>
+                        <option>Aug</option><option>Sep</option><option>Oct</option><option>Nov</option>
+                        <option>Dec</option>
+                        </select>
+                
+                        <select class="day">
+                        <option>Day</option><option>1</option><option>2</option><option>3</option>
+                        <option>4</option><option>5</option><option>6</option><option>7</option>
+                        <option>8</option><option>9</option><option>10</option><option>11</option>
+                        <option>12</option><option>13</option><option>14</option><option>15</option>
+                        <option>16</option><option>17</option><option>18</option><option>19</option>
+                        <option>20</option><option>21</option><option>22</option><option>23</option>
+                        <option>24</option><option>25</option><option>26</option><option>27</option>
+                        <option>28</option><option>29</option><option>30</option>
+                        </select>
+                
+                        <select class="year">
+                        <option>Year</option><option>1970</option><option>1972</option><option>1974</option>
+                        <option>1976</option><option>1978</option><option>1980</option><option>1982</option>
+                        <option>1984</option><option>1986</option><option>1988</option><option>1990</option>
+                        <option>1992</option><option>1995</option><option>1997</option><option>2000</option>
+                        <option>2002</option><option>2003</option><option>2004</option><option>2005</option>
+                        <option>2006</option><option>2007</option><option>2008</option>
+                        </select>
+                    </div>
+                    <div class="gicon">
+                        <p class="Gender">Gender</p><a href="#"><img src="fbimages/fb-dob-gen-logo.png " title="Click for more information" ></a>
+                    </div>
+                    <div class="genform">
+                        <div class="radio-container">
+                            <input type="radio" id="female" name="gender" value="female" onclick="showAlert(this.value)">
+                            <label for="female">Male</label>
+                        </div>
+
+                        <div class="radio-container">
+                            <input type="radio" id="other" name="gender" value="other" onclick="showAlert(this.value)">
+                            <label for="other">Female</label>
+                        </div>
+                
+                        <div class="radio-container">
+                            <input type="radio" id="male" name="gender" value="male" onclick="showAlert(this.value)">
+                            <label for="male">Custom</label>
+                        </div>                          
+                    </div> 
+                    <div class="agreement">
+                        <p>People who use our service may have uploaded your contact information to Facebook.<a href="#">Learn more</a>.<br>
+                        <br>By clicking Sign Up, you agree to our Terms, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                    </div>
+                    <button class="signup">Sign Up</button>
+                    <div class="loginlink">
+                        <p><a href="login.html">Already have an account?</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+   </div>
+</body>
+</html>
